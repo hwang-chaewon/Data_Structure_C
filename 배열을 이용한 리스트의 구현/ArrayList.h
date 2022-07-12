@@ -1,13 +1,13 @@
-//Çì´õ ÆÄÀÏÀÇ Áßº¹ Æ÷ÇÔÀ» ¸·±â À§ÇÑ ¼±¾ğ
+//í—¤ë” íŒŒì¼ì˜ ì¤‘ë³µ í¬í•¨ì„ ë§‰ê¸° ìœ„í•œ ì„ ì–¸
 #ifndef __ARRAY_LIST_H__
 #define __ARRAY_LIST_H__
 
 #define TRUE	1
 #define FALSE	0
 
-/*** ArrayListÀÇ Á¤ÀÇ ****/
+/*** ArrayListì˜ ì •ì˜ ****/
 #define LIST_LEN	100
-typedef int LData; //typedef·ê ÅëÇØ LDataÀÇ Å¸ÀÔÀ» Á¤ÇØ ³ùÀ½. int¸¦ double, * intµîÀ¸·Î ¹Ù²Ü ¼ö ÀÖ°Ô ÇÏ±â À§ÇØ(ÀÚ·á±¸Á¶¸¦ ¹ÙÅÁÀ¸·Î ´Ù¾çÇÑ µ¥ÀÌÅÍÀÇ ÀúÀå ¼ö¿ë )
+typedef int LData; //typedefë£° í†µí•´ LDataì˜ íƒ€ì…ì„ ì •í•´ ë†¨ìŒ. intë¥¼ double, * intë“±ìœ¼ë¡œ ë°”ê¿€ ìˆ˜ ìˆê²Œ í•˜ê¸° ìœ„í•´(ìë£Œêµ¬ì¡°ë¥¼ ë°”íƒ•ìœ¼ë¡œ ë‹¤ì–‘í•œ ë°ì´í„°ì˜ ì €ì¥ ìˆ˜ìš© )
 
 typedef struct __ArrayList
 {
@@ -17,7 +17,7 @@ typedef struct __ArrayList
 } ArrayList;
 
 
-/*** ArrayList¿Í °ü·ÃµÈ ¿¬»êµé ****/
+/*** ArrayListì™€ ê´€ë ¨ëœ ì—°ì‚°ë“¤ ****/
 typedef ArrayList List;
 
 void ListInit(List * plist);

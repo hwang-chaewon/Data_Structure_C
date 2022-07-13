@@ -1,3 +1,5 @@
+//ArrayList.h : 기능 명세서
+
 //헤더 파일의 중복 포함을 막기 위한 선언
 #ifndef __ARRAY_LIST_H__
 #define __ARRAY_LIST_H__

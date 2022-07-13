@@ -1,5 +1,3 @@
-//ListMain.c: 사용 예시
-
 #include <stdio.h>
 #include "ArrayList.h"
 

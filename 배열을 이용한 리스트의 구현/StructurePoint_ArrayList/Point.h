@@ -1,5 +1,5 @@
-//Point ±¸Á¶Ã¼ Á¤ÀÇ
-//Point±¸Á¶Ã¼ Æ÷ÀÎÅÍ°¡ Æ÷ÇÔµÈ ÇÔ¼ö ¿øÇü Á¤ÀÇ
+//Point êµ¬ì¡°ì²´ ì •ì˜
+//Pointêµ¬ì¡°ì²´ í¬ì¸í„°ê°€ í¬í•¨ëœ í•¨ìˆ˜ ì›í˜• ì •ì˜
 #ifndef __POINT_H__
 #define __POINT_H__
 
@@ -9,13 +9,13 @@ typedef struct _point
 	int ypos;
 } Point;
 
-// Point º¯¼öÀÇ xpos, ypos °ª ¼³Á¤
+// Point ë³€ìˆ˜ì˜ xpos, ypos ê°’ ì„¤ì •
 void SetPointPos(Point * ppos, int xpos, int ypos);
 
-// Point º¯¼öÀÇ xpos, ypos Á¤º¸ Ãâ·Â 
+// Point ë³€ìˆ˜ì˜ xpos, ypos ì •ë³´ ì¶œë ¥ 
 void ShowPointPos(Point * ppos);
 
-// µÎ Point º¯¼öÀÇ ºñ±³
+// ë‘ Point ë³€ìˆ˜ì˜ ë¹„êµ
 int PointComp(Point * pos1, Point * pos2); 
 
 #endif
